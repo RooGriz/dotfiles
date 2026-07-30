@@ -8,6 +8,7 @@
     ca = commit --amend
     d = diff
     dc = diff --cached
+    gl = log --graph --oneline --decorate --all
     pu = push -u origin HEAD
     st = status -sb
     undo = reset --soft HEAD^
