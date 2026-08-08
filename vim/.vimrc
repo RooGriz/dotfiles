@@ -47,6 +47,8 @@ nnoremap <silent> <C-a> ggVG
 " previous/next buffer
 nnoremap <silent> <S-Tab> :bprevious<cr>
 nnoremap <silent> <Tab>   :bnext<cr>
+" close the active buffer
+nnoremap <silent> <leader>bd :bdelete<cr>
 
 " save the current file to disk
 nnoremap <silent> <C-s>   :w<cr>
