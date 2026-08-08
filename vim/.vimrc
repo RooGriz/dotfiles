@@ -1,3 +1,6 @@
+" change the leader key to space
+let mapleader = "\<space>"
+
 " disable vi compatibility
 set nocompatible
 
