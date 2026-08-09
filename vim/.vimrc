@@ -32,6 +32,9 @@ set number
 " disable backup files (*.swp)
 set nobackup
 
+" keep 8 screen lines above and below the cursor
+set scrolloff=8
+
 " enable search highlighting
 set hlsearch
 " highlight automatically while typing
