@@ -5,7 +5,7 @@ let mapleader = "\<space>"
 set nocompatible
 
 " syntax highlighting
-syntax on               
+syntax on
 " enable filetype-specific indentation rules
 filetype indent on
 
@@ -63,3 +63,9 @@ inoremap <silent> <C-s>   <esc>:w<cr>
 " next/previous match centered
 nnoremap <silent> n nzz
 nnoremap <silent> N Nzz
+
+" move line down/up
+nnoremap <silent> <C-j> :m .+1<cr>==
+nnoremap <silent> <C-k> :m .-2<cr>==
+vnoremap <silent> <C-j> :m '>+1<cr>gv=gv
+vnoremap <silent> <C-k> :m '<-2<cr>gv=gv
