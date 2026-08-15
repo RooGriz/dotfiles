@@ -9,6 +9,10 @@ syntax on
 " enable filetype-specific indentation rules
 filetype indent on
 
+" display invisible characters (tabs, trailing spaces, nbsp)
+set list listchars=tab:»·,trail:·,nbsp:␣
+highlight SpecialKey ctermfg=darkgray guifg=gray
+
 " cursor line and number settings
 set cursorline
 highlight CursorLine cterm=NONE ctermbg=236 ctermfg=NONE guibg=#333333 guifg=NONE
