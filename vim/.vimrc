@@ -73,3 +73,6 @@ nnoremap <silent> <C-j> :m .+1<cr>==
 nnoremap <silent> <C-k> :m .-2<cr>==
 vnoremap <silent> <C-j> :m '>+1<cr>gv=gv
 vnoremap <silent> <C-k> :m '<-2<cr>gv=gv
+
+" close vim
+nnoremap <silent> <C-c> :q<cr>
