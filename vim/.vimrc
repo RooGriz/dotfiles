@@ -63,6 +63,7 @@ nnoremap <silent> <leader>bd :bdelete<cr>
 " save the current file to disk
 nnoremap <silent> <C-s>   :w<cr>
 inoremap <silent> <C-s>   <esc>:w<cr>
+vnoremap <silent> <C-s>   <esc>:w<cr>
 
 " next/previous match centered
 nnoremap <silent> n nzz
