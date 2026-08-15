@@ -16,10 +16,10 @@ highlight SpecialKey ctermfg=darkgray guifg=gray
 " cursor line and number settings
 set cursorline
 highlight CursorLine cterm=NONE ctermbg=236 ctermfg=NONE guibg=#333333 guifg=NONE
-highlight CursorLineNr ctermfg=NONE cterm=NONE guibg=NONE ctermfg=yellow guifg=#FFFF00 
+highlight CursorLineNr ctermfg=NONE cterm=NONE guibg=NONE ctermfg=yellow guifg=#FFFF00
 
 " auto indenting
-set autoindent          
+set autoindent
 " set tab size to 4 spaces
 set tabstop=4
 " convert tab to spaces
