@@ -4,6 +4,9 @@ let mapleader = "\<space>"
 " disable vi compatibility
 set nocompatible
 
+" use system clipboard as default register
+set clipboard=unnamedplus
+
 " syntax highlighting
 syntax on
 " enable filetype-specific indentation rules
@@ -44,6 +47,9 @@ set hlsearch
 " highlight automatically while typing
 set incsearch
 
+" show menu for command-line tab completion
+set wildmenu
+
 " clear search highlighting
 nnoremap <silent> <esc><esc> :nohlsearch<cr>
 
@@ -75,5 +81,8 @@ nnoremap <silent> <C-k> :m .-2<cr>==
 vnoremap <silent> <C-j> :m '>+1<cr>gv=gv
 vnoremap <silent> <C-k> :m '<-2<cr>gv=gv
 
-" close vim
-nnoremap <silent> <C-c> :q<cr>
+" close the current window
+nnoremap <silent> Q :q<cr>
+
+" paste over visual selection without overwriting the default register
+xnoremap <leader>p "_dP
