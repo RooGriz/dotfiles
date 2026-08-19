@@ -12,3 +12,5 @@
     pu = push -u origin HEAD
     st = status -sb
     undo = reset --soft HEAD^
+[include]
+    path = ~/.gitconfig.local
