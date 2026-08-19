@@ -50,6 +50,9 @@ set incsearch
 " show menu for command-line tab completion
 set wildmenu
 
+" treat hythen-separated words as a word text object
+set iskeyword+=-
+
 " clear search highlighting
 nnoremap <silent> <esc><esc> :nohlsearch<cr>
 
