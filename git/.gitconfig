@@ -11,6 +11,7 @@
     gl = log --graph --oneline --decorate --all
     pu = push -u origin HEAD
     st = status -sb
+    unstage = restore --staged
     undo = reset --soft HEAD^
 [include]
     path = ~/.gitconfig.local
