@@ -61,7 +61,7 @@ nnoremap <silent> <C-d> <C-d>zz
 nnoremap <silent> <C-u> <C-u>zz
 
 " select all
-nnoremap <silent> <C-a> ggVG
+nnoremap <silent> <leader>a ggVG
 
 " previous/next buffer
 nnoremap <silent> <S-Tab> :bprevious<cr>
