@@ -4,6 +4,9 @@ let mapleader = "\<space>"
 " disable vi compatibility
 set nocompatible
 
+" do not wrap lines
+set nowrap
+
 " use system clipboard as default register
 set clipboard=unnamedplus
 
