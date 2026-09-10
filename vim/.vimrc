@@ -63,6 +63,10 @@ nnoremap <silent> <esc><esc> :nohlsearch<cr>
 nnoremap <silent> <C-d> <C-d>zz
 nnoremap <silent> <C-u> <C-u>zz
 
+" go to the start/end of line
+nnoremap <silent> gh ^
+nnoremap <silent> gl $
+
 " select all
 nnoremap <silent> <leader>a ggVG
 
