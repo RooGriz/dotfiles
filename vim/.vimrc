@@ -96,13 +96,16 @@ vnoremap <silent> + :m '>+1<cr>gv=gv
 vnoremap <silent> _ :m '<-2<cr>gv=gv
 
 " ctrl + h/j/k/l to switch windows
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
+nnoremap <silent> <C-h> <C-w>h
+nnoremap <silent> <C-j> <C-w>j
+nnoremap <silent> <C-k> <C-w>k
+nnoremap <silent> <C-l> <C-w>l
 
-" close the current window
-nnoremap <silent> Q :q<cr>
+" ctrl + h/j/k/l to resize windows by 4 columns/rows
+nnoremap <silent> <C-w>h :vertical resize -4<cr>
+nnoremap <silent> <C-w>j :horizontal resize +4<cr>
+nnoremap <silent> <C-w>k :horizontal resize -4<cr>
+nnoremap <silent> <C-w>l :vertical resize +4<cr>
 
 " paste over visual selection without overwriting the default register
 xnoremap <leader>p "_dP
