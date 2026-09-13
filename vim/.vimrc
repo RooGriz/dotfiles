@@ -56,6 +56,10 @@ set wildmenu
 " treat hythen-separated words as a word text object
 set iskeyword+=-
 
+" open new splits at the bottom and right
+set splitbelow
+set splitright
+
 " clear search highlighting
 nnoremap <silent> <esc><esc> :nohlsearch<cr>
 
@@ -85,11 +89,17 @@ vnoremap <silent> <C-s>   <esc>:w<cr>
 nnoremap <silent> n nzz
 nnoremap <silent> N Nzz
 
-" move line down/up
-nnoremap <silent> <C-j> :m .+1<cr>==
-nnoremap <silent> <C-k> :m .-2<cr>==
-vnoremap <silent> <C-j> :m '>+1<cr>gv=gv
-vnoremap <silent> <C-k> :m '<-2<cr>gv=gv
+" +/_ to move line down/up
+nnoremap <silent> + :m .+1<cr>==
+nnoremap <silent> _ :m .-2<cr>==
+vnoremap <silent> + :m '>+1<cr>gv=gv
+vnoremap <silent> _ :m '<-2<cr>gv=gv
+
+" ctrl + h/j/k/l to switch windows
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 
 " close the current window
 nnoremap <silent> Q :q<cr>
