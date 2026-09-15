@@ -60,6 +60,9 @@ set iskeyword+=-
 set splitbelow
 set splitright
 
+" disable Q to avoid entering outdated Ex-mode
+nnoremap Q <nop>
+
 " clear search highlighting
 nnoremap <silent> <esc><esc> :nohlsearch<cr>
 
