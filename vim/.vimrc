@@ -1,8 +1,19 @@
 " change the leader key to space
 let mapleader = "\<space>"
 
+colorscheme slate
+
 " disable vi compatibility
 set nocompatible
+
+" automatically read a file when it has been changed outside of vim
+set autoread
+
+" switch buffers without saving changes
+set hidden
+
+" always show the status bar
+set laststatus=2
 
 " do not wrap lines
 set nowrap
