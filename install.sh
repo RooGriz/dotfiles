@@ -45,3 +45,4 @@ function install() {
 install git "git/.gitconfig" ".gitconfig"
 install vim "vim/.vimrc" ".vimrc"
 install tmux "tmux/.tmux.conf" ".tmux.conf"
+install bash "bash/.bash_aliases" ".bash_aliases"
