@@ -125,4 +125,4 @@ nnoremap <silent> <C-w>l :vertical resize +4<cr>
 xnoremap <leader>p "_dP
 
 " toggle display of invisible characters
-nnoremap <silent> <leader>' :set list!<cr>
+nnoremap <silent> <leader>ti :set list!<cr>
