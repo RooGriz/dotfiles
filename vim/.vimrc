@@ -123,3 +123,6 @@ nnoremap <silent> <C-w>l :vertical resize +4<cr>
 
 " paste over visual selection without overwriting the default register
 xnoremap <leader>p "_dP
+
+" toggle display of invisible characters
+nnoremap <silent> <leader>' :set list!<cr>
