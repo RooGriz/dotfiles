@@ -64,6 +64,10 @@ set scrolloff=8
 set hlsearch
 " highlight automatically while typing
 set incsearch
+" enable case-insensitive search
+set ignorecase
+" case-sensitive search only when uppercase letters are typed
+set smartcase
 
 " show menu for command-line tab completion
 set wildmenu
