@@ -3,6 +3,12 @@ let mapleader = "\<space>"
 
 colorscheme slate
 
+" change colors for matching parentheses
+augroup CustomMatchParen
+    autocmd!
+    autocmd ColorScheme * hi MatchParen ctermfg=cyan ctermbg=NONE gui=NONE guifg=#5fd7ff guibg=NONE
+augroup END
+
 " disable vi compatibility
 set nocompatible
 
@@ -30,10 +36,8 @@ filetype indent on
 set list listchars=tab:»·,trail:·,nbsp:␣
 highlight SpecialKey ctermfg=darkgray guifg=gray
 
-" cursor line and number settings
+" show cursor line
 set cursorline
-highlight CursorLine   cterm=NONE ctermbg=236 ctermfg=NONE guibg=#333333 guifg=NONE
-highlight CursorLineNr cterm=NONE guibg=NONE ctermfg=white guifg=NONE
 
 " auto indenting
 set autoindent
