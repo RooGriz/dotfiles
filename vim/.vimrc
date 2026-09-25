@@ -131,5 +131,9 @@ nnoremap <silent> <C-w>l :vertical resize +4<cr>
 " Paste over visual selection without overwriting the default register
 xnoremap <leader>p "_dP
 
+" Shift selected text left/right in Visual mode and keep it selected
+xnoremap <silent> < <gv
+xnoremap <silent> > >gv
+
 " Toggle display of invisible characters
 nnoremap <silent> <leader>ti :set list!<cr>
