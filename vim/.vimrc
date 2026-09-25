@@ -106,6 +106,9 @@ nnoremap <silent> <C-s>   :w<cr>
 inoremap <silent> <C-s>   <esc>:w<cr>
 vnoremap <silent> <C-s>   <esc>:w<cr>
 
+" Quit all open buffers and close Vim
+nnoremap <leader>qq <cmd>qa<cr>
+
 " Next/previous match centered
 nnoremap <silent> n nzz
 nnoremap <silent> N Nzz
