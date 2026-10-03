@@ -82,7 +82,7 @@ set splitbelow splitright
 nnoremap Q <nop>
 
 " Clear search highlighting
-nnoremap <silent> <esc><esc> :nohlsearch<cr>
+nnoremap <silent> <leader>nh :nohlsearch<cr>
 
 " Half page down/up (centered)
 nnoremap <silent> <C-d> <C-d>zz
@@ -140,3 +140,5 @@ xnoremap <silent> > >gv
 
 " Toggle display of invisible characters
 nnoremap <silent> <leader>ti :set list!<cr>
+" Toggle wrap
+nnoremap <silent> <leader>tw :set wrap!<cr>
