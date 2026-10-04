@@ -138,6 +138,10 @@ xnoremap <leader>p "_dP
 xnoremap <silent> < <gv
 xnoremap <silent> > >gv
 
+" Insert empty line above/below
+nnoremap <silent> [<space> m`O<esc>``"
+nnoremap <silent> ]<space> m`o<esc>``"
+
 " Toggle display of invisible characters
 nnoremap <silent> <leader>ti :set list!<cr>
 " Toggle wrap
