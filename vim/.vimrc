@@ -12,6 +12,9 @@ augroup END
 " Disable vi compatibility
 set nocompatible
 
+" Disable the creation of swap files
+set noswapfile
+
 " Automatically read a file when it has been changed outside of vim
 set autoread
 
