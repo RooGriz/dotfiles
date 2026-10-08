@@ -56,6 +56,7 @@ set backspace=indent,eol,start
 
 " Set numbered lines
 set number
+set relativenumber
 
 " Disable backup files (*.swp)
 set nobackup
